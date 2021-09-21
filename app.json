@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "find-your-pujo",
+    "slug": "find-your-pujo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "find-your-pujo"
+}
