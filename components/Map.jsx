@@ -10,6 +10,10 @@ const styles = StyleSheet.create({
    justifyContent: 'flex-end',
    alignItems: 'center',
  },
+ mapMarker:{
+    width:20,
+    height:20,
+ },
  map: {
    ...StyleSheet.absoluteFillObject,
  },
@@ -28,11 +32,25 @@ export default () => (
        }}
      >
          <Marker
+         style={styles.mapMarker}
          coordinate={{
             latitude: 37.78825,
             longitude: -122.4324,
          }}
          image={require('./assets/images/location.png')}
+         title='This First'
+         description='description of 1st'
+         />
+
+          <Marker
+         style={styles.mapMarker}
+         coordinate={{
+            latitude: 37.74425,
+            longitude: -122.4324,
+         }}
+         image={require('./assets/images/location.png')}
+         title='This segent'
+         description='description of 2st'
          />
      </MapView>
 
