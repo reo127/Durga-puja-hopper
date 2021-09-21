@@ -1,5 +1,5 @@
 import React from 'react';
-import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
+import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
 import { StyleSheet, Text, View } from 'react-native';
 
 const styles = StyleSheet.create({
@@ -27,6 +27,13 @@ export default () => (
          longitudeDelta: 0.0121,
        }}
      >
+         <Marker
+         coordinate={{
+            latitude: 37.78825,
+            longitude: -122.4324,
+         }}
+         image={require('./assets/images/location.png')}
+         />
      </MapView>
 
 );
