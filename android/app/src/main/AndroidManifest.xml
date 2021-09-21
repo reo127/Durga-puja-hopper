@@ -17,6 +17,11 @@
     android:theme="@style/AppTheme"
     android:usesCleartextTraffic="true"
   >
+  <!-- This code use for google maps by Rohan -->
+   <meta-data
+     android:name="com.google.android.geo.API_KEY"
+     android:value="AIzaSyCYKcwyyu6HF_TKZwHQAwG4lOtORzX7n80"/>
+
     <meta-data android:name="expo.modules.updates.EXPO_UPDATE_URL" android:value="YOUR-APP-URL-HERE"/>
     <meta-data android:name="expo.modules.updates.EXPO_SDK_VERSION" android:value="YOUR-APP-SDK-VERSION-HERE"/>
     <activity
