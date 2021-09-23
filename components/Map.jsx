@@ -18,19 +18,20 @@ function Map() {
         return;
       }
 
-      let location = await Location.getCurrentPositionAsync({});
+      let location = await Location.getLastKnownPositionAsync({});
       setLocation(location);
     })();
   }, []);
 
-  let text = 'Waiting..';
+  let text = 'Waiting.............';
   if (errorMsg) {
     text = errorMsg;
   } else if (location) {
     text = JSON.stringify(location);
   }
- 
+    console.log(location.timestamp)
      console.log(typeof(text))
+     console.log(text)
 
     return (
       <>
