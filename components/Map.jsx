@@ -30,7 +30,7 @@ function Map() {
     text = JSON.stringify(location);
   }
  
-     console.log(text)
+     console.log(typeof(text))
 
     return (
       <>
@@ -38,8 +38,8 @@ function Map() {
           provider={PROVIDER_GOOGLE}
           style={styles.map}
           region={{
-            latitude: 37.78825,
-            longitude: -122.4324,
+            latitude: 12.971284,
+            longitude: 77.748679,
             latitudeDelta: 0.015,
             longitudeDelta: 0.0121,
           }}
@@ -47,24 +47,14 @@ function Map() {
           <Marker
             style={styles.mapMarker}
             coordinate={{
-              latitude: 37.78825,
-              longitude: -122.4324,
+              latitude: 12.971284,
+              longitude: 77.748679,
             }}
             image={require('./assets/images/location.png')}
             title='This First'
             description='description of 1st'
           />
 
-          <Marker
-            style={styles.mapMarker}
-            coordinate={{
-              latitude: 37.74425,
-              longitude: -122.4324,
-            }}
-            image={require('./assets/images/location.png')}
-            title='This segent'
-            description='description of 2st'
-          />
         </MapView>
       </>
     )
