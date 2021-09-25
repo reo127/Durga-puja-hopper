@@ -29,9 +29,11 @@ function Map() {
   } else if (location) {
     text = JSON.stringify(location);
   }
-    console.log(location.timestamp)
+
      console.log(typeof(text))
      console.log(text)
+     console.log(typeof(location))
+     console.log(location)
 
     return (
       <>
