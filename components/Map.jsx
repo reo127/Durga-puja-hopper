@@ -54,8 +54,8 @@ function Map() {
           provider={PROVIDER_GOOGLE}
           style={styles.map}
           region={{
-            latitude: 12.971284,
-            longitude: 77.748679,
+            latitude: location.coords.latitude,
+            longitude: location.coords.longitude,
             latitudeDelta: 0.015,
             longitudeDelta: 0.0121,
           }}
@@ -63,8 +63,8 @@ function Map() {
           <Marker
             style={styles.mapMarker}
             coordinate={{
-              latitude: 12.971284,
-              longitude: 77.748679,
+              latitude: location.coords.latitude,
+              longitude: location.coords.longitude,
             }}
             image={require('./assets/images/location.png')}
             title='This First'
