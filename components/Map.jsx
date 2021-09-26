@@ -7,7 +7,20 @@ import * as Location from 'expo-location';
 
 function Map() {
 
-  const [location, setLocation] = useState(null);
+  const [location, setLocation] = useState({
+    "timestamp": 1632666372592,
+    "mocked": false,
+    "coords": {
+        "altitude": 795.3695790194122,
+        "heading": 0,
+        "altitudeAccuracy": null,
+        "latitude": 12.9534745,
+        "speed": 0,
+        "longitude": 77.7324429,
+        "accuracy": 964
+    }
+});
+
   const [errorMsg, setErrorMsg] = useState(null);
 
   useEffect(() => {
@@ -30,8 +43,8 @@ function Map() {
     text = JSON.stringify(location);
   }
 
-     console.log(typeof(text))
-     console.log(text)
+    //  console.log(typeof(text))
+    //  console.log(text)
      console.log(typeof(location))
      console.log(location)
 
