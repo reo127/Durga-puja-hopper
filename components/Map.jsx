@@ -7,6 +7,7 @@ import * as Location from 'expo-location';
 
 function Map() {
 
+  // Set a defult location to avoid a useEffect render error
   const [location, setLocation] = useState({
     "timestamp": 1632666372592,
     "mocked": false,
@@ -14,9 +15,9 @@ function Map() {
         "altitude": 795.3695790194122,
         "heading": 0,
         "altitudeAccuracy": null,
-        "latitude": 12.9534745,
+        "latitude": 22.974918,
         "speed": 0,
-        "longitude": 77.7324429,
+        "longitude": 88.434626,
         "accuracy": 964
     }
 });
@@ -25,12 +26,14 @@ function Map() {
 
   useEffect(() => {
     (async () => {
+      // This check and ask for permission
       let { status } = await Location.requestForegroundPermissionsAsync();
       if (status !== 'granted') {
         setErrorMsg('Permission to access location was denied');
         return;
       }
 
+      // It's take the location cordenats to the location variable and set the location state
       let location = await Location.getLastKnownPositionAsync({});
       setLocation(location);
     })();
@@ -43,8 +46,7 @@ function Map() {
     text = JSON.stringify(location);
   }
 
-    //  console.log(typeof(text))
-    //  console.log(text)
+  
      console.log(typeof(location))
      console.log(location)
 
@@ -67,8 +69,8 @@ function Map() {
               longitude: location.coords.longitude,
             }}
             image={require('./assets/images/location.png')}
-            title='This First'
-            description='description of 1st'
+            title='Me 😊'
+            // description='description of 1st'
           />
 
         </MapView>
