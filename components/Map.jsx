@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 import * as Location from 'expo-location';
 import Data from './Puja_locations.json'
 
@@ -49,10 +49,6 @@ function Map() {
     text = JSON.stringify(location);
   }
 
-
-  // console.log(typeof (location))
-  // console.log(location)
-  // console.log(Data)
   return (
     <>
       <MapView
@@ -71,15 +67,13 @@ function Map() {
             latitude: location.coords.latitude,
             longitude: location.coords.longitude,
           }}
-          image={require('./assets/images/location.png')}
+          image={require('./assets/images/location3.png')}
           title='Me 😊'
         // description='description of 1st'
         />
 
 
-        {Data.map(cords => {
-          console.log('Latitude => ',cords.latitude)
-          console.log('Latitude => ',cords.longitude)
+        {Data.map((cords, index) => {
           return (
             <>
               <Marker
@@ -89,7 +83,8 @@ function Map() {
                   latitude: cords.latitude,
                   longitude: cords.longitude,
                 }}
-                image={require('./assets/images/pandals.png')}
+                
+                image={require('./assets/images/pin3.png')}
                 title={cords.name}
               // description='description of 1st'
               />
@@ -112,8 +107,7 @@ const styles = StyleSheet.create({
     height: '100%',
   },
   pandalLocation:{
-    width: 3,
-    height: 3,
+
   }
 });
 
