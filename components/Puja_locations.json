@@ -2,26 +2,26 @@
     {
       "id": 1,
       "name": "Name is not Define",
-      "latatude": 12.945593036066828,
-      "logatute": 77.64157927125152
+      "latitude": 12.945593036066828,
+      "longitude": 77.64157927125152
     },
     {
       "id": 2,
       "name": "WhiteFeild Durga",
-      "latatude": 12.97207230860919, 
-      "logatute": 77.74854325501538
+      "latitude": 12.97207230860919, 
+      "longitude": 77.74854325501538
     },
     {
       "id": 3,
       "name": "BSS - Durga puja",
-      "latatude": 12.974784777362261,
-      "logatute":  77.69330981418358
+      "latitude": 12.974784777362261,
+      "longitude":  77.69330981418358
     },
     {
       "id": 4,
       "name": "PMB - Durga pujo",
-      "latatude": 12.974629150903253, 
-      "logatute": 77.75224052150834
+      "latitude": 12.974629150903253, 
+      "longitude": 77.75224052150834
     }
    
   ]

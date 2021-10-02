@@ -2,25 +2,28 @@ import React, { useState, useEffect } from 'react';
 import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
 import { StyleSheet, Text, View } from 'react-native';
 import * as Location from 'expo-location';
+import Data from './Puja_locations.json'
 
 
 
 function Map() {
+
+
 
   // Set a defult location to avoid a useEffect render error
   const [location, setLocation] = useState({
     "timestamp": 1632666372592,
     "mocked": false,
     "coords": {
-        "altitude": 795.3695790194122,
-        "heading": 0,
-        "altitudeAccuracy": null,
-        "latitude": 22.974918,
-        "speed": 0,
-        "longitude": 88.434626,
-        "accuracy": 964
+      "altitude": 795.3695790194122,
+      "heading": 0,
+      "altitudeAccuracy": null,
+      "latitude": 22.974918,
+      "speed": 0,
+      "longitude": 88.434626,
+      "accuracy": 964
     }
-});
+  });
 
   const [errorMsg, setErrorMsg] = useState(null);
 
@@ -46,54 +49,73 @@ function Map() {
     text = JSON.stringify(location);
   }
 
-  
-     console.log(typeof(location))
-     console.log(location)
 
-    return (
-      <>
-        <MapView
-          provider={PROVIDER_GOOGLE}
-          style={styles.map}
-          region={{
+  // console.log(typeof (location))
+  // console.log(location)
+  // console.log(Data)
+  return (
+    <>
+      <MapView
+        provider={PROVIDER_GOOGLE}
+        style={styles.map}
+        region={{
+          latitude: location.coords.latitude,
+          longitude: location.coords.longitude,
+          latitudeDelta: 0.015,
+          longitudeDelta: 0.0121,
+        }}
+      >
+        <Marker
+          style={styles.mapMarker}
+          coordinate={{
             latitude: location.coords.latitude,
             longitude: location.coords.longitude,
-            latitudeDelta: 0.015,
-            longitudeDelta: 0.0121,
           }}
-        >
-          <Marker
-            style={styles.mapMarker}
-            coordinate={{
-              latitude: location.coords.latitude,
-              longitude: location.coords.longitude,
-            }}
-            image={require('./assets/images/location.png')}
-            title='Me 😊'
-            // description='description of 1st'
-          />
+          image={require('./assets/images/location.png')}
+          title='Me 😊'
+        // description='description of 1st'
+        />
 
-        </MapView>
-      </>
-    )
+
+        {Data.map(cords => {
+          console.log('Latitude => ',cords.latitude)
+          console.log('Latitude => ',cords.longitude)
+          return (
+            <>
+              <Marker
+              key= {cords.id}
+                style={styles.pandalLocation}
+                coordinate={{
+                  latitude: cords.latitude,
+                  longitude: cords.longitude,
+                }}
+                image={require('./assets/images/pandals.png')}
+                title={cords.name}
+              // description='description of 1st'
+              />
+            </>
+          )
+        })}
+
+      </MapView>
+    </>
+  )
+}
+
+const styles = StyleSheet.create({
+  mapMarker: {
+    width: 2,
+    height: 2,
+  },
+  map: {
+    width: '100%',
+    height: '100%',
+  },
+  pandalLocation:{
+    width: 3,
+    height: 3,
   }
-
-  const styles = StyleSheet.create({
-    container: {
-      ...StyleSheet.absoluteFillObject,
-      height: 400,
-      width: 400,
-      justifyContent: 'flex-end',
-      alignItems: 'center',
-    },
-    mapMarker: {
-      width: 20,
-      height: 20,
-    },
-    map: {
-      ...StyleSheet.absoluteFillObject,
-    },
-  });
+});
 
 
-  export default Map
+export default Map
