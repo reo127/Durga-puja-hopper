@@ -1,0 +1,157 @@
+{
+  "suggestedLocations": [
+    {
+      "type": "POI",
+      "placeAddress": "Selimpur Road, Selimpur, Dhakuria, Kolkata, West Bengal, 700031",
+      "eLoc": "HHVM5S",
+      "placeName": "Selimpur Palli Durga Puja",
+      "alternateName": "Salimpur Club Durga Puja",
+      "keywords": [
+        "PLPOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 1,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "Purbapara, Kamdahari, Garia, Kolkata, West Bengal, 700084",
+      "eLoc": "HHVLAL",
+      "placeName": "Pancha Durga Puja Pandal",
+      "alternateName": "Garia Pancha Durga Puja",
+      "keywords": [
+        "PLPOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 2,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "59/60, Bagmari Road, Kolkata, West Bengal, 700054",
+      "eLoc": "E984L1",
+      "placeName": "Ultadanga Sangrami Durga Puja",
+      "alternateName": "Ultadanga Sangrami Durga Puja Pandal",
+      "keywords": [
+        "PLPOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 3,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "Bakul Bagan, Bhowanipore, Kolkata, West Bengal, 700025",
+      "eLoc": "HHVRDX",
+      "placeName": "Dakshin Kolkata Sarbajanin Durga Puja",
+      "alternateName": "Aikatan Dakshin Kolkata Sarbajanin Durgapujo",
+      "keywords": [
+        "PLPOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 4,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "20A, Surendranath Pyne Lane, Opposite Gate 3 Of Medical College, Kolkata, West Bengal, 700073",
+      "eLoc": "E97R9P",
+      "placeName": "Madhya Kolkata Uttoran Durga Puja Pandal",
+      "alternateName": "",
+      "keywords": [
+        "PLPOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 5,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "No 43, Ground Floor, 8th A Cross Road, Byrasandra Main Road, CV Raman Nagar Post, Bengaluru, Karnataka, 560093",
+      "eLoc": "8PGWTI",
+      "placeName": "Kolkata ' Z",
+      "alternateName": "",
+      "keywords": [
+        "TRDCOM"
+      ],
+      "distance": 0,
+      "orderIndex": 6,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "1st Floor 47, New No 88, Chennai, Tamil Nadu, 600017",
+      "eLoc": "CCNK2N",
+      "placeName": "Kolkata Q",
+      "alternateName": "",
+      "keywords": [
+        "FODOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 7,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "14, Peary Mohan Ray Road, Chetla, Kolkata, West Bengal, 700027",
+      "eLoc": "E98WK9",
+      "placeName": "Chetla Agrani Durga Puja",
+      "alternateName": "Chetla Agrani Durga Puja Pandal",
+      "keywords": [
+        "PLPOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 8,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "45, Satish Mukherjee Road, Kolkata, West Bengal, 700026",
+      "eLoc": "E990H6",
+      "placeName": "64 Pally Durga Puja Pandal",
+      "alternateName": "",
+      "keywords": [
+        "PLPOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 9,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "16, Nandi Street, Dover Terrace, Ballygunge, Kolkata, West Bengal, 700019",
+      "eLoc": "KY0E9D",
+      "placeName": "Singhi Park Sarbojonin Durga Puja Committee",
+      "alternateName": "Singhi Park Durga Puja,Singhi Park Sarbojanin Durgatsab",
+      "keywords": [
+        "PLPOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 10,
+      "suggester": "placeName"
+    }
+  ],
+  "userAddedLocations": [
+    {
+      "eLoc": "RUBRVT",
+      "orderIndex": 11,
+      "placeAddress": "69/3b, Chetla Road, Chetla, Kolkata, West Bengal",
+      "placeName": "Chetla Sarbosadharaner durga Puja",
+      "type": ""
+    },
+    {
+      "eLoc": "55C6C3",
+      "orderIndex": 12,
+      "placeAddress": "2/1, Haripada Mukherjee Street, Belghariya, Kolkata-56",
+      "placeName": "Bani Mandir Durga Puja",
+      "type": ""
+    },
+    {
+      "eLoc": "WMRROK",
+      "orderIndex": 13,
+      "placeAddress": "77 Raja Rammohan Sarani, Kolkata-09",
+      "placeName": "Maniktala Chaltabagan Lohapatty Durga Puja Committee",
+      "type": ""
+    }
+  ]
+}

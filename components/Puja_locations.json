@@ -22,6 +22,288 @@
       "name": "PMB - Durga pujo",
       "latitude": 12.974629150903253, 
       "longitude": 77.75224052150834
+    },
+   {
+      "id": 5,
+      "name": "ITI more Durga Pujo",
+      "latitude": 22.981066432119484, 
+      "longitude": 88.4383038186545
+    },
+   {
+      "id": 6,
+      "name": "Central Park Durga pujo",
+      "latitude": 22.979889252858488, 
+      "longitude": 88.43502421480423
+    },
+   {
+      "id": 7,
+      "name": "B-14 Durga Pujo",
+      "latitude": 22.968035833482862,  
+      "longitude": 88.43279261693968
+    },
+   {
+      "id": 8,
+      "name": "B-3 Durga Pujo",
+      "latitude": 22.975938228580652,
+      "longitude":  88.42575450059765
+    },
+   {
+      "id": 9,
+      "name": "Pannalal Sporting Club Durga puja",
+      "latitude": 22.950483217867955,  
+      "longitude": 88.43862911959184
+    },
+   {
+      "id": 10,
+      "name": "A-10 Durga Puja",
+      "latitude": 22.965807740953018, 
+      "longitude": 88.45974342727096
+    },
+   {
+      "id": 11,
+      "name": "Bagmore Saptarshi Club Durga puja",
+      "latitude": 22.953795017789545, 
+      "longitude": 88.42180626520596
+    },
+   {
+      "id": 12,
+      "name": "Chitraranjan Park Durga Puja",
+      "latitude": 22.985247123554657, 
+      "longitude": 88.42729942894388
+    },
+   {
+      "id": 13,
+      "name": "Monimela Park Durga Puja",
+      "latitude": 22.982560546161164, 
+      "longitude": 88.43159096311412
+    },
+   {
+      "id": 14,
+      "name": "Sati Maa Bari Durga Pujo",
+      "latitude": 22.991568271345752, 
+      "longitude": 88.44240562922316 
+    },
+   {
+      "id": 15,
+      "name": "Shankhanagar sarbojanin Durga Puja",
+      "latitude": 22.974026357711388, 
+      "longitude": 88.38592903954267
+    },
+   {
+      "id": 16,
+      "name": "Novadoy Durga Puja",
+      "latitude": 23.004319465042066,
+      "longitude":  88.4593173949322
+    },
+   {
+      "id": 17,
+      "name": "Jamtala Sarbojonin Durga Puja",
+      "latitude": 22.980639837681604, 
+      "longitude": 88.44172992164488
+    },
+   {
+      "id": 18,
+      "name": "Chandue Sasthitala Durga Pujo",
+      "latitude": 22.927490938032616, 
+      "longitude": 88.4537702473724
+    },
+   {
+      "id": 19,
+      "name": "Charrjee Bagaan's Durga Puja",
+      "latitude": 22.923711260224795, 
+      "longitude": 88.39178472849423
+    },
+   {
+      "id": 20,
+      "name": "Mahajati Club Durga Puja",
+      "latitude": 22.950703181456106, 
+      "longitude": 88.4417830073223
+    },
+   {
+      "id": 21,
+      "name": "ITI more bus Stop",
+      "latitude": 22.980286430486316, 
+      "longitude": 88.43797909478884
+    },
+   {
+      "id": 22,
+      "name": "Durga Puja Park",
+      "latitude": 22.97669637665432, 
+      "longitude": 88.43488676170449
+    },
+   {
+      "id": 23,
+      "name": "Notunpally Nabankur Sangha",
+      "latitude": 22.99376799158085, 
+      "longitude": 88.43921277193864
+    },
+    {
+      "id": 24,
+      "name": "Boar park durga puja",
+      "latitude": 22.978655807298527,  
+      "longitude": 88.43979746722476
+    },
+    {
+      "id": 25,
+      "name": "NETAJI Sanagha Club",
+      "latitude": 22.991709606621555,  
+      "longitude": 88.4510928860429
+    },
+    {
+      "id": 26,
+      "name": "Nabanker Durga Puja",
+      "latitude": 22.955838909484093,  
+      "longitude": 88.43879050396191
+    },
+    {
+      "id": 27,
+      "name": "Notunpally Nabankur Sangha",
+      "latitude": 22.99376799158085, 
+      "longitude": 88.43921277193864
+    },
+    {
+      "id": 28,
+      "name": "Jamtola Durga Puja",
+      "latitude": 22.992571975032988, 
+      "longitude": 88.44049776986343 
+    },
+    {
+      "id": 29,
+      "name": "Durga Puja Ground",
+      "latitude": 22.953217572828198, 
+      "longitude": 88.46282006693559
+    },
+    {
+      "id": 30,
+      "name": "Malancha Bat Tala Durga Puja",
+      "latitude": 22.92471393299476,  
+      "longitude": 88.43813425087464
+    },
+    {
+      "id": 31,
+      "name": "Chandua Sasthitala Durga Puja",
+      "latitude": 22.930587107616883, 
+      "longitude": 88.45331751564291
+    },
+   {
+      "id": 32,
+      "name": "Sahidnagar Kali Bari Durga Puja",
+      "latitude": 22.947353724127062, 
+      "longitude": 88.43030336205081
+    },
+   {
+      "id": 33,
+      "name": "Sitalatala Baroari Durga Puja",
+      "latitude": 22.94326083642773, 
+      "longitude": 88.4137950255183 
+    },
+   {
+      "id": 34,
+      "name": "Lichubagan yubok Club",
+      "latitude": 22.950687286932514, 
+      "longitude": 88.43886948776066
+    },
+   {
+      "id": 35,
+      "name": "Sonar Bhuban Shiv Mandir Durga Puja",
+      "latitude": 22.961284932001053,
+      "longitude":  88.42307260551684
+    },
+   {
+      "id": 36,
+      "name": "Park Maidan Durga Puja",
+      "latitude": 22.985343168392944, 
+      "longitude": 88.4410178204914 
+    },
+    {
+      "id": 37,
+      "name": " Durga Puja Hall",
+      "latitude": 22.87817006867373,
+      "longitude":  88.42164469243765
+    },
+    {
+      "id": 38,
+      "name": "Nabankur Durga Mondop",
+      "latitude": 22.954696649835405,
+      "longitude":  88.43537760226403
+    },
+    {
+      "id": 39,
+      "name": " Durga Puja",
+      "latitude": 22.985343168392944, 
+      "longitude": 88.4410178204914 
+    },
+    {
+      "id": 40,
+      "name": "Gayeshpur Jogajog Club Durga Puja",
+      "latitude": 22.955012785691284,
+      "longitude": 88.48790598234993 
+    },
+    {
+      "id": 41,
+      "name": "Vivekananda Pally Durga Puja Ground",
+      "latitude": 22.877537437637006,
+      "longitude":  88.41786814223538 
+    },
+    {
+      "id": 42,
+      "name": "Matri Mission '0' Mandir Durga Puja",
+      "latitude": 22.969952253732117,
+      "longitude": 88.46504388301076
+    },
+    {
+      "id": 43,
+      "name": "Shebok Shamity Durga Puja",
+      "latitude": 22.892053856063306,
+      "longitude": 88.42666537912726
+    },
+    {
+      "id": 44,
+      "name": " Durga Puja",
+      "latitude": 22.985343168392944, 
+      "longitude": 88.4410178204914 
+    },
+    {
+      "id": 4,
+      "name": " Durga Puja",
+      "latitude": 22.985343168392944, 
+      "longitude": 88.4410178204914 
+    },
+    {
+      "id": 4,
+      "name": " Durga Puja",
+      "latitude": 22.985343168392944, 
+      "longitude": 88.4410178204914 
+    },
+    {
+      "id": 4,
+      "name": " Durga Puja",
+      "latitude": 22.985343168392944, 
+      "longitude": 88.4410178204914 
+    },
+    {
+      "id": 4,
+      "name": " Durga Puja",
+      "latitude": 22.985343168392944, 
+      "longitude": 88.4410178204914 
+    },
+    {
+      "id": 4,
+      "name": " Durga Puja",
+      "latitude": 22.985343168392944, 
+      "longitude": 88.4410178204914 
+    },
+    {
+      "id": 4,
+      "name": " Durga Puja",
+      "latitude": 22.985343168392944, 
+      "longitude": 88.4410178204914 
+    },
+    {
+      "id": 4,
+      "name": " Durga Puja",
+      "latitude": 22.985343168392944, 
+      "longitude": 88.4410178204914 
     }
    
   ]

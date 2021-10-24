@@ -1,0 +1,135 @@
+{
+  "suggestedLocations": [
+    {
+      "type": "POI",
+      "placeAddress": "Block A, Kalyani District, Kalyani, West Bengal, 741235",
+      "eLoc": "AP3AML",
+      "placeName": "Netaji Sangha Kalyani Durga Puja Pandal",
+      "alternateName": "",
+      "keywords": [
+        "PLPOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 1,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "Dumuduma Temple Road, Dumuduma, Bhubaneswar, Odisha, 751019",
+      "eLoc": "1822FB",
+      "placeName": "Durga Puja Mandapam",
+      "alternateName": "Durga Puja Mandap",
+      "keywords": [
+        "COMBAN"
+      ],
+      "distance": 0,
+      "orderIndex": 2,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "Kanke, Jharkhand, 834006",
+      "eLoc": "ZAT68F",
+      "placeName": "CIP Durga Puja Pandal",
+      "alternateName": "Central Institute Of Psychiatry Durga Puja Pandal",
+      "keywords": [
+        "PLPOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 3,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "Sursand, Sitamarhi District, Bihar, 843331",
+      "eLoc": "BWGYS4",
+      "placeName": "Durga Puja",
+      "alternateName": "",
+      "keywords": [
+        "PLPOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 4,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "Sapodera, Durga Puja Maidan, Jamshedpur, Jharkhand, 831002",
+      "eLoc": "KCQXOS",
+      "placeName": "Puja Ladies Corner",
+      "alternateName": "",
+      "keywords": [
+        "RTSOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 5,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "NH 32, Bank More, Dhanbad, Jharkhand, 826001",
+      "eLoc": "62B7F3",
+      "placeName": "Durga Puja",
+      "alternateName": "",
+      "keywords": [
+        "RTSOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 6,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "Baliapur, Dhanbad District, Jharkhand, 828201",
+      "eLoc": "6TVM2X",
+      "placeName": "Durga Puja",
+      "alternateName": "",
+      "keywords": [
+        "PLPOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 7,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "Pocket 40, CR Park, New Delhi, Delhi, 110019",
+      "eLoc": "E9GI4V",
+      "placeName": "Nabapalli Durga Puja Samiti",
+      "alternateName": "Nabapalli Durga Puja",
+      "keywords": [
+        "PLPOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 8,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "Sant Kabir Road, Pritam Nagar, Dhoomanganj, Prayagraj, Uttar Pradesh, 211011",
+      "eLoc": "GT8LFY",
+      "placeName": "Durga Puja Park",
+      "alternateName": "Durga Puja Maidan",
+      "keywords": [
+        "COMPRK"
+      ],
+      "distance": 0,
+      "orderIndex": 9,
+      "suggester": "placeName"
+    },
+    {
+      "type": "POI",
+      "placeAddress": "Dhirajganj, Gamharia, Jamshedpur, Jharkhand, 832108",
+      "eLoc": "3DEF4A",
+      "placeName": "Durga Puja Samiti",
+      "alternateName": "",
+      "keywords": [
+        "PLPOTH"
+      ],
+      "distance": 0,
+      "orderIndex": 10,
+      "suggester": "placeName"
+    }
+  ],
+  "userAddedLocations": []
+}
