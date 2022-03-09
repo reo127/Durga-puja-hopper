@@ -8,8 +8,6 @@ import Data from './Puja_locations.json'
 
 function Map() {
 
-
-
   // Set a defult location to avoid a useEffect render error
   const [location, setLocation] = useState({
     "timestamp": 1632666372592,
@@ -39,7 +37,7 @@ function Map() {
       // It's take the location cordenats to the location variable and set the location state
       let location = await Location.getLastKnownPositionAsync({});
       setLocation(location);
-    })();
+    });
   }, []);
 
   let text = 'Waiting.............';
