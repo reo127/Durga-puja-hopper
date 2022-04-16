@@ -13,7 +13,8 @@ function Map() {
     "timestamp": 1632666372592,
     "mocked": false,
     "coords": {
-      "altitude": 795.3695790194122,
+      "name": "kalyani",
+      // "altitude": 795.3695790194122,
       "heading": 0,
       "altitudeAccuracy": null,
       "latitude": 22.974918,
@@ -23,29 +24,37 @@ function Map() {
     }
   });
 
-  const [errorMsg, setErrorMsg] = useState(null);
+  // const [errorMsg, setErrorMsg] = useState(null);
 
   useEffect(() => {
-    (async () => {
-      // This check and ask for permission
-      let { status } = await Location.requestForegroundPermissionsAsync();
-      if (status !== 'granted') {
-        setErrorMsg('Permission to access location was denied');
-        return;
-      }
-
-      // It's take the location cordenats to the location variable and set the location state
-      let location = await Location.getLastKnownPositionAsync({});
-      setLocation(location);
-    });
+    GetLocation();
   }, []);
 
-  let text = 'Waiting.............';
-  if (errorMsg) {
-    text = errorMsg;
-  } else if (location) {
-    text = JSON.stringify(location);
+
+  const GetLocation = async () => {
+    console.log("Getting Location called");
+    // This check and ask for permission
+    let { status } = await Location.requestForegroundPermissionsAsync();
+    if (status !== 'granted') {
+      console.log('Permission to access location was denied');
+      return;
+    }
+
+    console.log("hallo i am testing for debuging")
+
+    // It's take the location cordenats to the location variable and set the location state
+    let location = await Location.getLastKnownPositionAsync({});
+    setLocation(location);
   }
+
+  // let text = 'Waiting.............';
+  // if (errorMsg) {
+  //   text = errorMsg;
+  // } else if (location) {
+  //   text = JSON.stringify(location);
+  // }
+
+  console.log(location);
 
   return (
     <>
