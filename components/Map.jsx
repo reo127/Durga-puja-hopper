@@ -39,8 +39,6 @@ function Map() {
       return;
     }
 
-    console.log("hallo i am testing for debuging")
-
     // It's take the location cordenats to the location variable and set the location state
     let location = await Location.getLastKnownPositionAsync({});
     setLocation(location);
@@ -74,7 +72,7 @@ function Map() {
           return (
             <>
               <Marker
-              key= {cords.id}
+              key = {index}
                 style={styles.pandalLocation}
                 coordinate={{
                   latitude: cords.latitude,
