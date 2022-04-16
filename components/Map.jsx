@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet } from 'react-native';
 import * as Location from 'expo-location';
 import Data from './Puja_locations.json'
 
@@ -14,7 +14,7 @@ function Map() {
     "mocked": false,
     "coords": {
       "name": "kalyani",
-      // "altitude": 795.3695790194122,
+      "altitude": 795.3695790194122,
       "heading": 0,
       "altitudeAccuracy": null,
       "latitude": 22.974918,
@@ -24,7 +24,6 @@ function Map() {
     }
   });
 
-  // const [errorMsg, setErrorMsg] = useState(null);
 
   useEffect(() => {
     GetLocation();
@@ -32,7 +31,7 @@ function Map() {
 
 
   const GetLocation = async () => {
-    console.log("Getting Location called");
+
     // This check and ask for permission
     let { status } = await Location.requestForegroundPermissionsAsync();
     if (status !== 'granted') {
@@ -46,15 +45,6 @@ function Map() {
     let location = await Location.getLastKnownPositionAsync({});
     setLocation(location);
   }
-
-  // let text = 'Waiting.............';
-  // if (errorMsg) {
-  //   text = errorMsg;
-  // } else if (location) {
-  //   text = JSON.stringify(location);
-  // }
-
-  console.log(location);
 
   return (
     <>
