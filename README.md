@@ -16,7 +16,7 @@ This app use to Find Durga Puja pandals near you
 
 Install of durga-puja-hopper with npm
 
-- Install Expo in your phone, system
+- Install Expo in your phone and  [Expo CLI](https://www.github.com/octokatherine) on your System
 
 
 ```bash
@@ -31,3 +31,10 @@ Install of durga-puja-hopper with npm
 
 After that scan the QR code with you phone expo app
     
+## Screenshots
+
+![Ask permission screen](./screenshots/askpermission.jpeg) 
+
+![User Location](./screenshots/userLocation.jpeg)
+
+![Main Interface](./screenshots/mainInterface.jpeg)
